@@ -1,14 +1,14 @@
 // NUMERO DE LINEA
-const NUMERO_DE_LINEA = '5491176117486';
+const NUMERO_DE_LINEA = '5491176116948';
 
 // ID DEL PIXEL DE META
-const PIXEL_ID = '1817895628956159';
+const PIXEL_ID = '1131985028420455';
 
 // NOMBRE DEL EVENTO CLICK
-const EVENTO_CLICK = 'ClickEscaloneta';
+const EVENTO_CLICK = 'ClickThiago';
 
 // Mensaje predeterminado
-const MENSAJE_WA = encodeURIComponent('¡Hola! Quiero crear un USU4RIO. Mi nombre es:');
+const MENSAJE_WA = encodeURIComponent('¡Hola, quiero un USU4RIO! Mi nombre es: ');
 
 // Función para obtener el enlace de WhatsApp
 function getWhatsappLink() {
@@ -44,7 +44,7 @@ window.addEventListener('DOMContentLoaded', function() {
             // Evento personalizado de Meta Pixel
             if (typeof fbq !== 'undefined' && EVENTO_CLICK) {
                 fbq('trackCustom', EVENTO_CLICK, {
-                    website: 'webescaloneta',
+                    website: 'webthiago',
                     platform: 'WhatsApp',
                     page: document.title,
                     url: window.location.href,
@@ -54,5 +54,6 @@ window.addEventListener('DOMContentLoaded', function() {
         });
     }
 });
+
 
 
